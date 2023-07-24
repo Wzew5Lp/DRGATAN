@@ -195,4 +195,4 @@ if __name__ == '__main__':
             target_list[j].append(np.mean(target_l[j]))
     for j in range(6):
         print(np.mean(target_list[j]), np.std(target_list[j]))
-
+print()
