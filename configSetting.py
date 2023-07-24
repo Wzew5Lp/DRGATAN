@@ -1,0 +1,16 @@
+epochs = 200
+number = 5
+out_channels = 16
+lr = 0.01
+test_ratio = 0.2
+beta = 0.5
+alpha = 0.5 - beta
+EPS = 1e-15
+val_ratio = 0.2
+beta_on = True
+choice = True
+dir = 2
+label_num = 2
+fold = 5
+min_loss_val = 10
+min_epoch = 100
